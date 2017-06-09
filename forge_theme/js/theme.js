@@ -48,4 +48,5 @@ $(document).ready(function () {
         }
         e.preventDefault();
     });
+    hljs.initHighlightingOnLoad();
 });

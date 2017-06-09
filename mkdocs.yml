@@ -42,7 +42,8 @@ markdown_extensions:
   - smarty
   - sane_lists
   - pymdownx.superfences
-  - pymdownx.highlight
+  - pymdownx.highlight:
+      use_pygments: false
 
 theme: null
 theme_dir: 'forge_theme'
